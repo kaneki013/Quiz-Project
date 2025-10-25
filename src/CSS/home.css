@@ -1,0 +1,27 @@
+
+/* Hero Section */
+.hero {
+  min-height: 80vh;
+  background: linear-gradient(to bottom right, #e9f1ff, #d9e8ff);
+}
+
+.hero h1 {
+  color: #2a62ff;
+}
+
+.hero p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  font-size: 0.95rem;
+}
